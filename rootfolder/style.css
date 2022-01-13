@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(228, 227, 227);
+  overflow: hidden;
+}
+img.searchBtn {
+  height: 40px;
+  width: auto;
+}
+input.cityInput {
+  height: 6vh;
+  width: 200px;
+  border: none;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  background-color: rgb(228, 227, 227);
+  margin-left: 3px;
+}
+.headContainer {
+  height: 10vh;
+  width: 80vw;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  margin-top: 3vh;
+}
+.font {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 1px;
+}
+h1.mainDescrip.font.city {
+  font-size: 24px;
+  margin-top: 40px;
+  letter-spacing: 7px;
+}
+h1.mainDescrip.font {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #212f3c;
+  letter-spacing: 4px;
+}
+.icon {
+  height: 25vh;
+  width: max-content;
+  margin-top: -10px;
+  margin-bottom: 0vh;
+  margin-left: 25vw;
+}
+.weatherDeets.font {
+  display: flex;
+  width: 75vw;
+  margin: auto;
+  height: 15vh;
+}
+.temp {
+  width: 50%;
+  font-size: 75px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.detailsHead {
+  font-size: 14px;
+  padding-bottom: 2px;
+  padding-top: 11px;
+  font-weight: 600;
+  color: #202c36;
+}
+.details {
+  line-height: 2px;
+  width: 100%;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  margin-top: -10px;
+}
+.feelsLikeValue {
+  margin-left: -3px;
+}
+.humidityValue {
+  margin-left: 4px;
+}
+
+.h2 {
+  letter-spacing: 4px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #212f3c;
+}
+.weekday {
+  text-align: center;
+  margin-top: 20px;
+}
+hr {
+  width: 65vw;
+  margin-top: 20px;
+}
+.timeBlock {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navIMG {
+  width: 100vw;
+  height: 100px;
+}
+html {
+  overflow: hidden;
+}
