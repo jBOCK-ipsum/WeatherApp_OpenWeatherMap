@@ -6,9 +6,14 @@ img.searchBtn {
   height: 40px;
   width: auto;
 }
+.searchButton {
+  border: none;
+  outline: none;
+  background-color: rgb(228, 227, 227);
+}
 input.cityInput {
   height: 6vh;
-  width: 200px;
+  width: 60vw;
   border: none;
   text-align: center;
   font-size: 13px;
@@ -17,7 +22,8 @@ input.cityInput {
   letter-spacing: 1px;
   color: black;
   background-color: rgb(228, 227, 227);
-  margin-left: 3px;
+  margin-left: -6px;
+  opacity: 50%;
 }
 .headContainer {
   height: 10vh;
@@ -26,6 +32,10 @@ input.cityInput {
   align-items: center;
   display: flex;
   margin-top: 3vh;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .font {
   font-family: "Lato", sans-serif;
@@ -48,19 +58,21 @@ h1.mainDescrip.font {
 }
 .icon {
   height: 25vh;
-  width: max-content;
+  display: block;
+  margin: auto;
   margin-top: -10px;
   margin-bottom: 0vh;
-  margin-left: 25vw;
+  align-self: center;
 }
 .weatherDeets.font {
-  display: flex;
+  display: inline-flex;
   width: 75vw;
   margin: auto;
   height: 15vh;
+  margin-left: 9vw;
 }
 .temp {
-  width: 50%;
+  width: 50vw;
   font-size: 75px;
   text-align: center;
   letter-spacing: 3px;
@@ -77,10 +89,16 @@ h1.mainDescrip.font {
 }
 .details {
   line-height: 2px;
-  width: 100%;
+  width: 100vw;
   font-size: 11px;
   display: flex;
   flex-direction: column;
+}
+.card {
+  display: block;
+  width: 90vw;
+  height: 15vh;
+  margin: auto;
 }
 .flexRow {
   display: flex;
@@ -120,4 +138,12 @@ hr {
 }
 html {
   overflow: hidden;
+}
+.weather.loading {
+  visibility: hidden;
+}
+.weather.loading::after {
+  visibility: visible;
+  content: "Loading your weather!";
+  font-family: "Lato", sans-serif;
 }
