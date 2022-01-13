@@ -1,5 +1,5 @@
-let weather = {
-  apiKey: "6d3ae874f73566d815eb16af480b7be7",
+tlet weather = {
+  apiKey: "tedcated",
   fetchWeather: function (city) {
     //requires a city to return the weather data for
     fetch(
